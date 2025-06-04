@@ -1,0 +1,579 @@
+{
+  "photographers": [
+    {
+      "id": 1,
+      "name": "Ravi Studio",
+      "location": "Bengaluru",
+      "price": 10000,
+      "rating": 4.6,
+      "styles": ["Outdoor", "Studio"],
+      "tags": ["Candid", "Maternity"],
+      "bio": "Award-winning studio specializing in maternity and newborn shoots with over 8 years of experience.",
+      "profilePic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Ananya",
+          "rating": 5,
+          "comment": "Truly amazing photos and experience! Ravi made us feel so comfortable.",
+          "date": "2024-12-15"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lens Queen Photography",
+      "location": "Delhi",
+      "price": 15000,
+      "rating": 4.2,
+      "styles": ["Candid", "Indoor"],
+      "tags": ["Newborn", "Birthday"],
+      "bio": "Delhi-based candid specialist for kids and birthday parties. Capturing joy in every frame.",
+      "profilePic": "https://images.unsplash.com/photo-1494790108755-2616c6ceaeb2?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Priya",
+          "rating": 4,
+          "comment": "Very professional and punctual! Great with kids.",
+          "date": "2024-10-01"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Click Factory",
+      "location": "Mumbai",
+      "price": 8000,
+      "rating": 4.8,
+      "styles": ["Studio", "Outdoor", "Traditional"],
+      "tags": ["Wedding", "Pre-wedding"],
+      "bio": "Capturing timeless wedding stories across India with a team of passionate photographers.",
+      "profilePic": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Rahul",
+          "rating": 5,
+          "comment": "We loved every single moment they captured. Absolutely stunning work!",
+          "date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Moments by Neha",
+      "location": "Bengaluru",
+      "price": 12000,
+      "rating": 4.3,
+      "styles": ["Outdoor", "Candid"],
+      "tags": ["Maternity", "Couple"],
+      "bio": "Natural light specialist focusing on emotional storytelling through beautiful portraits.",
+      "profilePic": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Sneha",
+          "rating": 4.5,
+          "comment": "Captured our maternity journey so beautifully. Highly recommend!",
+          "date": "2024-11-05"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Snapshot Studio",
+      "location": "Hyderabad",
+      "price": 7000,
+      "rating": 3.9,
+      "styles": ["Studio"],
+      "tags": ["Birthday", "Family"],
+      "bio": "Affordable indoor shoots with creative themes and professional lighting setups.",
+      "profilePic": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1609220136736-443140cfebc6?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Vikram",
+          "rating": 3.5,
+          "comment": "Decent service, could improve on punctuality but photos were good.",
+          "date": "2024-09-10"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Artistic Vision",
+      "location": "Mumbai",
+      "price": 18000,
+      "rating": 4.7,
+      "styles": ["Outdoor", "Traditional"],
+      "tags": ["Wedding", "Maternity"],
+      "bio": "Mumbai's premier wedding and maternity photography specialists with artistic flair.",
+      "profilePic": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Kavya",
+          "rating": 5,
+          "comment": "Exceeded all expectations! Beautiful artistic shots.",
+          "date": "2024-11-20"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Golden Hour Studios",
+      "location": "Delhi",
+      "price": 14000,
+      "rating": 4.4,
+      "styles": ["Outdoor", "Candid"],
+      "tags": ["Couple", "Engagement"],
+      "bio": "Specializing in golden hour photography for couples and engagements.",
+      "profilePic": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Arjun",
+          "rating": 4.5,
+          "comment": "Perfect timing and lighting. Amazing couple shots!",
+          "date": "2024-10-15"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Capture Dreams",
+      "location": "Bengaluru",
+      "price": 9500,
+      "rating": 4.1,
+      "styles": ["Studio", "Indoor"],
+      "tags": ["Newborn", "Family"],
+      "bio": "Creating dreamy indoor portraits for families and newborns.",
+      "profilePic": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Meera",
+          "rating": 4,
+          "comment": "Gentle with our newborn, beautiful studio setup.",
+          "date": "2024-09-25"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Focus Photography",
+      "location": "Hyderabad",
+      "price": 11000,
+      "rating": 4.5,
+      "styles": ["Candid", "Traditional"],
+      "tags": ["Wedding", "Birthday"],
+      "bio": "Traditional and candid photography for all your special occasions.",
+      "profilePic": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1520637836862-4d197d17c93a?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Rajesh",
+          "rating": 4.5,
+          "comment": "Great mix of traditional and modern shots.",
+          "date": "2024-08-12"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Eternal Moments",
+      "location": "Mumbai",
+      "price": 16500,
+      "rating": 4.6,
+      "styles": ["Outdoor", "Studio"],
+      "tags": ["Maternity", "Couple"],
+      "bio": "Creating eternal memories with professional maternity and couple photography.",
+      "profilePic": "https://images.unsplash.com/photo-1464863979621-258859e62245?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1502720705749-871143f0e671?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1524863479829-916d8e77f114?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Pooja",
+          "rating": 5,
+          "comment": "Beautiful maternity shoot, felt very comfortable.",
+          "date": "2024-12-01"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Pixel Perfect",
+      "location": "Delhi",
+      "price": 13000,
+      "rating": 4.3,
+      "styles": ["Studio", "Candid"],
+      "tags": ["Birthday", "Family"],
+      "bio": "Perfect pixels for your family celebrations and birthday parties.",
+      "profilePic": "https://images.unsplash.com/photo-1541647376583-8934aaf3448a?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1522621032211-ac0031dfab85?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1477313264937-ee1cd14b9a94?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Amit",
+          "rating": 4,
+          "comment": "Great attention to detail, kids loved the session.",
+          "date": "2024-07-18"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Dreamlight Studios",
+      "location": "Bengaluru",
+      "price": 8500,
+      "rating": 4.0,
+      "styles": ["Indoor", "Traditional"],
+      "tags": ["Newborn", "Maternity"],
+      "bio": "Soft lighting specialists for newborn and maternity photography.",
+      "profilePic": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1503602642458-232111445657?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Nisha",
+          "rating": 4,
+          "comment": "Lovely setup for newborn photos, very patient.",
+          "date": "2024-06-30"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Shutter Stories",
+      "location": "Hyderabad",
+      "price": 12500,
+      "rating": 4.4,
+      "styles": ["Outdoor", "Candid"],
+      "tags": ["Wedding", "Engagement"],
+      "bio": "Telling your love story through candid outdoor photography.",
+      "profilePic": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Deepika",
+          "rating": 4.5,
+          "comment": "Captured our love story beautifully!",
+          "date": "2024-05-22"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Frame Perfect",
+      "location": "Mumbai",
+      "price": 17000,
+      "rating": 4.8,
+      "styles": ["Studio", "Traditional"],
+      "tags": ["Family", "Birthday"],
+      "bio": "Traditional family portraits with modern studio techniques.",
+      "profilePic": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1536431311719-398b6704d4cc?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Suresh",
+          "rating": 5,
+          "comment": "Perfect family portraits, everyone loved them!",
+          "date": "2024-04-10"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Creative Lens",
+      "location": "Delhi",
+      "price": 10500,
+      "rating": 4.2,
+      "styles": ["Candid", "Outdoor"],
+      "tags": ["Couple", "Maternity"],
+      "bio": "Creative outdoor photography for couples and expecting mothers.",
+      "profilePic": "https://images.unsplash.com/photo-1552642986-ccb9b6cd906f?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1497551060073-4c5ab6435f12?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1505033575518-a36ea2ef75ae?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Shruti",
+          "rating": 4,
+          "comment": "Creative angles and beautiful outdoor shots.",
+          "date": "2024-03-15"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Memories Studio",
+      "location": "Bengaluru",
+      "price": 9000,
+      "rating": 4.1,
+      "styles": ["Studio", "Indoor"],
+      "tags": ["Birthday", "Newborn"],
+      "bio": "Creating lasting memories in our comfortable studio environment.",
+      "profilePic": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1475503572774-15a45e5d60b9?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Kiran",
+          "rating": 4,
+          "comment": "Nice studio setup, good with children.",
+          "date": "2024-02-28"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Bright Pixels",
+      "location": "Hyderabad",
+      "price": 11500,
+      "rating": 4.3,
+      "styles": ["Outdoor", "Traditional"],
+      "tags": ["Wedding", "Family"],
+      "bio": "Bright and vibrant photography for weddings and family gatherings.",
+      "profilePic": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1452723312111-3a7d0db0e024?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1484863137850-59afcfe05386?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Ravi",
+          "rating": 4.5,
+          "comment": "Vibrant colors and great composition.",
+          "date": "2024-01-20"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Timeless Photography",
+      "location": "Mumbai",
+      "price": 15500,
+      "rating": 4.7,
+      "styles": ["Traditional", "Studio"],
+      "tags": ["Maternity", "Family"],
+      "bio": "Timeless portraits that capture the essence of your special moments.",
+      "profilePic": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Aditi",
+          "rating": 5,
+          "comment": "Timeless and elegant photos, absolutely loved them!",
+          "date": "2023-12-10"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Picture Perfect",
+      "location": "Delhi",
+      "price": 13500,
+      "rating": 4.4,
+      "styles": ["Candid", "Indoor"],
+      "tags": ["Birthday", "Engagement"],
+      "bio": "Perfect indoor candid photography for birthdays and engagements.",
+      "profilePic": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1485178575877-1a13bf489dfe?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Manoj",
+          "rating": 4,
+          "comment": "Great candid shots, very natural looking.",
+          "date": "2023-11-25"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Visual Stories",
+      "location": "Bengaluru",
+      "price": 10800,
+      "rating": 4.2,
+      "styles": ["Outdoor", "Candid"],
+      "tags": ["Couple", "Wedding"],
+      "bio": "Telling visual stories through outdoor candid photography.",
+      "profilePic": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1470218091926-22a08371b662?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Priyanka",
+          "rating": 4.5,
+          "comment": "Beautiful storytelling through photos.",
+          "date": "2023-10-15"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Candid Captures",
+      "location": "Hyderabad",
+      "price": 8800,
+      "rating": 3.8,
+      "styles": ["Candid", "Outdoor"],
+      "tags": ["Family", "Birthday"],
+      "bio": "Natural candid captures for family celebrations and birthdays.",
+      "profilePic": "https://images.unsplash.com/photo-1557862921-37829c790f19?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1495854245predefined-color0958c30?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Sachin",
+          "rating": 4,
+          "comment": "Natural and relaxed atmosphere, good value.",
+          "date": "2023-09-30"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Elite Photography",
+      "location": "Mumbai",
+      "price": 19000,
+      "rating": 4.9,
+      "styles": ["Studio", "Traditional"],
+      "tags": ["Wedding", "Maternity"],
+      "bio": "Elite level photography services for weddings and maternity shoots.",
+      "profilePic": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1460467820054-c87ab43e9b59?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1481824429379-07aa5cdaff80?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Kavita",
+          "rating": 5,
+          "comment": "Elite service and exceptional quality!",
+          "date": "2023-08-20"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Moments & Memories",
+      "location": "Delhi",
+      "price": 12000,
+      "rating": 4.1,
+      "styles": ["Indoor", "Candid"],
+      "tags": ["Newborn", "Family"],
+      "bio": "Capturing precious moments and creating lasting memories.",
+      "profilePic": "https://images.unsplash.com/photo-1494708501958-481c22999de8?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1509909756405-be0199881695?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Ritika",
+          "rating": 4,
+          "comment": "Gentle approach with newborns, good memories captured.",
+          "date": "2023-07-12"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Signature Shots",
+      "location": "Bengaluru",
+      "price": 14500,
+      "rating": 4.6,
+      "styles": ["Outdoor", "Studio"],
+      "tags": ["Engagement", "Couple"],
+      "bio": "Signature style photography for engagements and couples.",
+      "profilePic": "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1516726817505-f5ed825624d8?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1471506480208-91b3a4cc78be?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Rohit",
+          "rating": 4.5,
+          "comment": "Unique signature style, loved our engagement photos!",
+          "date": "2023-06-05"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Rainbow Studios",
+      "location": "Hyderabad",
+      "price": 9800,
+      "rating": 4.0,
+      "styles": ["Studio", "Traditional"],
+      "tags": ["Birthday", "Family"],
+      "bio": "Colorful and vibrant studio photography for all occasions.",
+      "profilePic": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=400&h=400&fit=crop",
+      "portfolio": [
+        "https://images.unsplash.com/photo-1541199249251-f713e6145474?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1516627145497-ae4099a17319?w=600&h=400&fit=crop"
+      ],
+      "reviews": [
+        {
+          "name": "Sunita",
+          "rating": 4,
+          "comment": "Colorful setups and good with children.",
+          "date": "2023-05-18"
+        }
+      ]
+    }
+  ]
+}
