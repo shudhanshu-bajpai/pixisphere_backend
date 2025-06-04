@@ -1,17 +1,20 @@
 const express = require('express');
 const fs = require('fs');
 const cors = require('cors');
+const serverless = require('serverless-http');
+
 const app = express();
-const PORT = 3001;
 
 app.use(cors());
 
-// GET /photographers
+// Default route
 app.get('/', (req, res) => {
-    res.json({"msg" : "success"})
-})
+    res.json({ msg: "success" });
+});
+
+// GET /photographers
 app.get('/photographers', (req, res) => {
-  fs.readFile('db.json', 'utf8', (err, data) => {
+  fs.readFile(__dirname + '/db.json', 'utf8', (err, data) => {
     if (err) {
       return res.status(500).json({ error: 'Failed to read data' });
     }
@@ -21,6 +24,5 @@ app.get('/photographers', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-});
+// Don't use app.listen() on Vercel
+module.exports = serverless(app);
